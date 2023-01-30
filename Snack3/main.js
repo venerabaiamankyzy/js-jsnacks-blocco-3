@@ -5,10 +5,10 @@
 const userNumber = parseInt(prompt("Inserisci un numero"));
 
 //esegui il ciclo finche non raggiungi il numero dell'utente
-let i = 1;
-while (userNumber >= i) {
+let i = 0;
+while (i < userNumber) {
   let listArray = [];
-
+  i++;
   //numero da 1 a 100
   for (let x = 0; x < 10; x++) {
     let newNumber = Math.floor(Math.random() * 100) + 1;
