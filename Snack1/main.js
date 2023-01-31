@@ -10,3 +10,8 @@ userNumbers.push(maxNumber);
 userNumbers.push(minNumber);
 
 console.log(userNumbers);
+
+// la generazione del numero casuale
+const randomNumberGeneration =
+  Math.floor(Math.random() * (maxNumber - minNumber)) + minNumber;
+console.log(randomNumberGeneration);
